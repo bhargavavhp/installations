@@ -163,3 +163,12 @@ Alternative to Calico is Weave net
 kubectl apply -f https://github.com/weaveworks/weave/releases/download/v2.8.1/weave-daemonset-k8s.yaml
 ```
 Link - https://www.weave.works/docs/net/latest/kubernetes/kube-addon/
+
+## Troubleshoot
+If there is any error in kubeadm init or kubeadm join, execute below commands
+```
+rm -fr /etc/containerd/config.toml
+systemctl restart containerd
+systemctl status containerd.service
+```
+Link - https://programmerall.com/article/99842435629/
