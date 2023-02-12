@@ -6,7 +6,7 @@ sudo tar xvf apache-maven-3.6.3-bin.tar.gz
 ln -s apache-maven-3.6.3 apache-maven
 sudo vi /etc/profile.d/apache-maven.sh
 ```
-please insert below lines to /etc/profile.d/apache-maven.sh
+please insert below lines to **/etc/profile.d/apache-maven.sh**
 ```
 export JAVA_HOME=/usr/lib/jvm/java-11-oracle
 export M2_HOME=/usr/local/apache-maven
