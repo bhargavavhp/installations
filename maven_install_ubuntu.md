@@ -20,4 +20,6 @@ mvn -version ( to verify maven version )
 
 For more details https://tecadmin.net/install-apache-maven-on-ubuntu/  
 ## easy way to install
-```sudo apt install maven```
+```
+sudo apt install maven
+```
