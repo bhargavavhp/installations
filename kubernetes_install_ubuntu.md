@@ -22,6 +22,7 @@ Confirm installation by checking the version of kubectl.
 ```
 kubectl version --client && kubeadm version
 ```
+Output:
 ```
 Client Version: version.Info{Major:"1", Minor:"22", GitVersion:"v1.22.2", GitCommit:"8b5a19147530eaac9476b0ab82980b4088bbc1b2", GitTreeState:"clean", BuildDate:"2021-09-15T21:38:50Z", GoVersion:"go1.16.8", Compiler:"gc", Platform:"linux/amd64"}
 kubeadm version: &version.Info{Major:"1", Minor:"22", GitVersion:"v1.22.2", GitCommit:"8b5a19147530eaac9476b0ab82980b4088bbc1b2", GitTreeState:"clean", BuildDate:"2021-09-15T21:37:34Z", GoVersion:"go1.16.8", Compiler:"gc", Platform:"linux/amd64"}
@@ -156,7 +157,7 @@ In this we’ll use Calico. You can choose any other supported network plugins.
 kubectl apply -f https://docs.projectcalico.org/manifests/calico.yaml
 ```
 
-### (or) Install Waeave net
+### (or) Install Weave net
 Alternative to Calico is Weave net
 ```
 kubectl apply -f https://github.com/weaveworks/weave/releases/download/v2.8.1/weave-daemonset-k8s.yaml
