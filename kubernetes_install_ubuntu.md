@@ -164,7 +164,7 @@ kubectl apply -f https://github.com/weaveworks/weave/releases/download/v2.8.1/we
 ```
 Link - https://www.weave.works/docs/net/latest/kubernetes/kube-addon/
 
-## Troubleshoot
+## Troubleshooting
 If there is any error in kubeadm init or kubeadm join, execute below commands
 ```
 rm -fr /etc/containerd/config.toml
